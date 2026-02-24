@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Alice Smith",
+      "email": "alice@example.com"
+    },
+    {
+      "id": "user-2",
+      "name": "Bob Jones",
+      "email": "bob@example.com"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Community Garden Cleanup",
+      "description": "Join us for a morning of gardening and community bonding. Tools provided!",
+      "date": "2024-10-15",
+      "time": "09:00",
+      "location": "Central Park",
+      "category": "Community Service",
+      "createdBy": "user-1",
+      "attendees": [
+        "user-2",
+        "user-1"
+      ]
+    },
+    {
+      "id": "evt-2",
+      "title": "Tech Talk: Future of AI",
+      "description": "A deep dive into the latest advancements in artificial intelligence.",
+      "date": "2024-10-20",
+      "time": "18:00",
+      "location": "Innovation Hub",
+      "category": "Technology",
+      "createdBy": "user-2",
+      "attendees": []
+    },
+    {
+      "title": "tech",
+      "description": "hiiok",
+      "date": "2025-03-03",
+      "time": "14:45",
+      "location": "Bangalore, Karnataka, India",
+      "category": "Education",
+      "id": "evt-1771779552885",
+      "createdBy": "user-1",
+      "attendees": [
+        "user-1"
+      ]
+    }
+  ]
+}
